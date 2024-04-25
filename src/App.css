@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-section, .right-section {
+  width: 45%;
+  margin: 20px;
+}
+.title {
+  text-align: center;
+  /* Add other styles as needed */
+  margin-left: 50px;
+  margin-top: 100px;
+}

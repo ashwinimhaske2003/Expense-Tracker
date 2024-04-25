@@ -1,0 +1,38 @@
+/* SavingsCalculator.css */
+
+.container {
+  margin-top: 20px;
+  background-color: white; /* Set background color */
+  padding: 20px;
+  border-radius: 8px; /* Add some border radius for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  width: 90%; /* Set container width */
+  max-width: 800px; /* Set maximum container width */
+  margin: 20px auto; /* Center the container horizontally */
+  margin-top: 80px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #40065f; /* Set heading background color */
+  color: #fff; /* Set heading text color */
+  padding: 12px;
+  text-align: left;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
+
+table tr:hover {
+  background-color: #ddd; /* Hover row background color */
+}
